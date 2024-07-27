@@ -7,7 +7,7 @@ import { RouterModule } from '@angular/router';
 export type MenuItem = {
   icon: string;
   label: string;
-  route: string;
+  route?: string;
 }
 
 @Component({
