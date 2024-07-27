@@ -1,0 +1,25 @@
+:host * {
+  transition: all 500ms ease-in-out;
+}
+
+.menu-item {
+  border-left: 5px solid;
+  border-left-color: rgba(0, 0, 0, 0);
+  border-radius: 100%;
+}
+.selected-menu-item {
+  // border-left: 5px solid;
+  border-left-color: var(--primary-color);
+  background: rgba(0, 0, 0, 0.05);
+}
+
+
+// .mat-mdc-nav-list .mat-mdc-list-item {
+//   border-radius: 0; /* This will make the list item edges sharp and rectangular */
+//   --mat-mdc-focus-indicator-border-radius: 0; /* Ensures the focus indicator is also rectangular */
+// }
+
+.indented {
+  --mat-list-list-item-leading-icon-start-space: 48px;
+}
+

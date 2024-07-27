@@ -1,7 +1,7 @@
 
-:host * {
-  transition: all 500ms ease-in-out;
-}
+// :host * {
+//   transition: all 500ms ease-in-out;
+// }
 .sidenav-header {
   padding-top: 24px;
   text-align: center;
@@ -30,19 +30,22 @@
   opacity: 0;
   height: 0 !important;
 }
-.menu-item {
-  border-left: 5px solid;
-  border-left-color: rgba(0, 0, 0, 0);
-  border-radius: 100%;
-}
-.selected-menu-item {
-  // border-left: 5px solid;
-  border-left-color: var(--primary-color);
-  background: rgba(0, 0, 0, 0.05);
-}
+
+
+
+// .menu-item {
+//   border-left: 5px solid;
+//   border-left-color: rgba(0, 0, 0, 0);
+//   border-radius: 100%;
+// }
+// .selected-menu-item {
+//   // border-left: 5px solid;
+//   border-left-color: var(--primary-color);
+//   background: rgba(0, 0, 0, 0.05);
+// }
 
 // https://www.youtube.com/watch?v=sitHfnoeT88&list=PLHbz-DWIAPJC9QksAO1PHobAGXde3CgIz&index=3
-.mat-mdc-nav-list .mat-mdc-list-item {
-  border-radius: 0; /* This will make the list item edges sharp and rectangular */
-  --mat-mdc-focus-indicator-border-radius: 0; /* Ensures the focus indicator is also rectangular */
-}
+// .mat-mdc-nav-list .mat-mdc-list-item {
+//   border-radius: 0; /* This will make the list item edges sharp and rectangular */
+//   --mat-mdc-focus-indicator-border-radius: 0; /* Ensures the focus indicator is also rectangular */
+// }
