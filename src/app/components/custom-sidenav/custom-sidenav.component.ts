@@ -26,7 +26,7 @@ export class CustomSidenavComponent {
     this.sideNavCollapsed.set(val);
   }
 
-  profilePicSize = computed(() => this.sideNavCollapsed() ? '32' : '100');
+  // profilePicSize = computed(() => this.sideNavCollapsed() ? '32' : '100');
 
   menuItems = signal<MenuItem[]>([
     {
